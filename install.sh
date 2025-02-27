@@ -12,7 +12,7 @@ function color_text {
 }
 
 color_text blue "Descargando el archivo update.php..."
-curl -s -o update.php https://gist.githubusercontent.com/aitorroma/8acbf1b0ce1989a636311b66369133ae/raw/a8d74409801b380cfd8c5de3c33af83dedae16e5/update.php
+curl -s -o update.php https://raw.githubusercontent.com/aitorroma/hestiacp-ddns/refs/heads/main/update.php
 
 # Ruta al fichero de configuración de la API
 API_FILE="/usr/local/hestia/data/api/ddns"
